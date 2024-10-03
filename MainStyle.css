@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header{
+  background: #333;
+  color: #fff;
+  margin-top: 0;
+  padding: 15px 0;
+  text-align: center;
+}
+
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+
+
+nav {
+  margin: 20px 0;
+  background: #333;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: center;
+        
+}
+
+
+
+#BackG {
+ background-image: url('https://media.istockphoto.com/id/170450723/photo/a-silver-sports-car-on-black-tile-floor.jpg?s=612x612&w=0&k=20&c=B5BRnhnYzfOf2BE4301r8S7h56GshGUMVAy8QnoKP0Y=');
+ background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+ font-size: 2em;
+ margin-top: 0px;
+}
+
+/*this is for the boxes*/
+  
+#container {
+    max-width: 1200px;
+       margin: 0 auto;
+       padding: 20px;
+
+}
+
+#car1{
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  width: calc(33% - 20px);
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  margin-left: auto; 
+  margin-left: 0;
+  text-align: left;
+}
+
+#car2{
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-right: 0px;
+  width: calc(33% - 20px);
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  margin-left: auto; 
+  margin-top: 0px;
+  text-align: left;
+  position: absolute;
+  top: 138.8%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+}
+
+#car1 img{
+  max-width: 50%;
+  border-radius: 5px;
+}
+
+#car2 img{
+  max-width: 50%;
+  border-radius: 5px;
+}
+
+
+#container2{
+  max-width: 1200px;
+  text-align: right;
+}
+
+#BS{
+  position: absolute;
+  top: 118%;
+  left: 73.5%;
+  transform: translate(-50%, -50%);
+}
